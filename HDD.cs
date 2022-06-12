@@ -25,7 +25,7 @@ namespace SMART
         static public string sPathStart = Environment.CurrentDirectory;
         static public string sReportFile = ""; 
         static public string sFileLog = ""; 
-        static public bool bParamLog = false; //true - писать файл логов
+        static public bool bParamLog = true; //true - писать файл логов
 
         public static void Main(string[] args)
         {   bool bOk = true;
